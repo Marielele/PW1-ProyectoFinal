@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--
+
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo/css.css"/>
+        <link rel="shortcut icon" href="estilo/nota.png"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Prata&display=swap" rel="stylesheet">
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body id="loginregister">
+        <div>
+            <header id="IniyRegis" class="letras">
+                <a href="index.html"> <b>Notitas uwu</b> </a>
+            </header>
+        </div>
+        <div class="container">
+            <div class="centrado" id="divuno">
+                <div class="dentro">
+                    <h1 id="titulos">Crea una cuenta</h1>
+                </div>
+                <form action="/Registrarse" method="post" onsubmit="return validaRegistro()">
+                    <div class="divisor">
+                        <div class="dentro">
+                            <div class="file-select letras" id="src-file1" >
+                                <input type="file" id="avatar" name="avatar" accept=".png, .jpg, .jpeg" required>
+                            </div>
+                        </div>
+                        <div class="dentro espacio">
+                            <input type="text" name="Nombre" id="name" class="inpt" placeholder="Nombre" required>
+                        </div>
+                        <div class="dentro">
+                            <input type="text" name="Apellidos" id="apellidos" class="inpt" placeholder="Apellidos" required>
+                        </div>
+                        <div class="dentro espacio">
+                            <label for="birthday" class="letras">Fecha de Nacimiento: </label> <br>
+                            <input type="text" name="dia" id="dia" class="miniinpt" placeholder="Día" required>
+                            <input type="text" name="mes" id="mes" class="miniinpt" placeholder="Mes" required>
+                            <input type="text" name="anio" id="anio" class="miniinpt" placeholder="Año" required>
+                            <!--<input type="date" id="birthday" min="1950-01-01" name="fechadenacimiento">-->
+                        </div>
+                    </div>
+                    <div class="vertical"></div>
+                    <div class="divisor">
+                        <div class="dentro">
+                            <input type="text" name="usuario" id="user" required class="inpt" placeholder="Usuario">
+                        </div>
+                        <div class="dentro">
+                            <span title="La contraseña debe tener: 8 carácteres, 1 letra mayúscula, 1 minúscula, 1 número y 1 signo de puntuación">
+                                <input type="password" name="password" id="pass" required class="inpt" placeholder="Contraseña">
+                            </span>
+                        </div>
+                        <div class="dentro">
+                            <input type="password" name="confirmpassword" id="confirmpass" class="inpt" placeholder="Confirmar contraseña" required>
+                        </div>
+                        <div class="dentro">
+                            <input type="text" name="email" id="email" required class="inpt" placeholder="Email">
+                        </div>
+                        <div class="dentro espacio" id="regis">
+                            <input id="Register" type="submit" value="Registrarse" class="btn letras">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

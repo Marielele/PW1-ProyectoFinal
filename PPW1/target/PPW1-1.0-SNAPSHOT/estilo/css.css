@@ -1,0 +1,203 @@
+/* 
+    Created on : Aug 31, 2021, 1:40:53 PM
+    Author     : marie
+*/
+.letras{
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#titulos {
+    font-family: 'Prata', serif;
+}
+
+div.container {
+
+}
+
+div.centro {
+    background-color: white;
+    width: 20em;
+    height: 17em;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10em;
+    padding-top: .3em;
+}
+
+div.centrado {
+    background-color: white;
+    width: 50em;
+    height: 22em;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 8em;
+    padding-top: .3em;
+}
+
+#loginregister{
+    background-color: #b7c8f7;
+}
+
+.dentro {
+    margin: auto;
+    text-align: center;
+}
+
+.inpt {
+    border-color: #b7c8f7;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 20em;
+}
+
+.miniinpt {
+    border-color: #b7c8f7;
+    border-style: solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    width: 5em;
+}
+
+#ingresa {
+    margin-top: 1em;
+}
+
+::placeholder {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.espacio {
+    margin-top: 10px !important;
+}
+
+.espacio2 {
+    margin-top: 2em;
+}
+
+.espacio3 {
+    margin-top: 3em;
+}
+
+.btn {
+    width: 20em;
+    background-color: #b7c8f7;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: white;
+    border-color: #b7c8f7;
+    color: #b7c8f7;
+}
+
+.btn:focus-visible {
+    outline: none;
+}
+
+.inpt:hover {
+    box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -webkit-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -moz-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+}
+
+.inpt:focus-visible {
+    box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -webkit-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -moz-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    outline: none;
+}
+
+.miniinpt:hover {
+    box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -webkit-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -moz-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+}
+
+.miniinpt:focus-visible {
+    box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -webkit-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    -moz-box-shadow: 0px 1px 10px 7px rgba(138,156,201,0.75);
+    outline: none;
+}
+
+.checkb {
+    cursor: pointer;
+}
+
+#IniyRegis {
+    text-align: right;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+div.divisor {
+    display: inline-block;
+    width: 24em;
+    margin: 3px;
+    vertical-align: top;
+}
+
+div.vertical {
+    width: .2em;
+    background-color: #b7c8f7;
+    height: 13em; 
+    display: inline-block;
+    margin: 2px;
+    margin-bottom: 2em;
+    border-radius: 2px;
+}
+
+#Register {
+    width: auto !important;
+    justify-content: flex-end !important;
+}
+
+#regis {
+    text-align: end !important;
+    margin-right: 2.5em;
+}
+
+.file-select {
+    position: relative;
+    display: inline-block;
+}
+
+.file-select::before {
+    background-color: #b7c8f7;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.file-select input[type="file"] {
+    opacity: 0;
+    width: 200px;
+    height: 32px;
+    display: inline-block;
+}
+
+#src-file1::before {
+    content: 'Agregar avatar';
+}
+
+.error {
+    color: red;
+}
